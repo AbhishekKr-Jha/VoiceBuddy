@@ -6,7 +6,7 @@ const openAi=process.env.SECRET_KEY
 console.log("---",process.env.SECRET_KEY)
 
 const openai = new OpenAI({
-  apiKey: openAi // This is the default and can be omitted
+  apiKey: openAi 
 });
 
 async function main() {
